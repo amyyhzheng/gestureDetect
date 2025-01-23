@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ImagimobStudio version="0.9">
+  <Timeline id="1e969ea1-9edc-4fc2-af70-224f7b31bcdb">
+    <Tracks>
+      <Track name="accel4" type="datacsv" isLabelTrack="False">
+        <PayloadFile>accel4.data</PayloadFile>
+      </Track>
+      <Track name="gyro4" type="datacsv" isLabelTrack="False">
+        <PayloadFile>gyro4.data</PayloadFile>
+      </Track>
+      <Track name="Live-Labeling4" type="labelcsv">
+        <PayloadFile>Live-Labeling4.label</PayloadFile>
+      </Track>
+    </Tracks>
+  </Timeline>
+</ImagimobStudio>

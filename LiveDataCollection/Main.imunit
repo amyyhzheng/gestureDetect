@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Imaginet version="2.0.0.0">
+  <Compound unit="e2e038a0-e281-4de4-a43c-355bd5afec8d">
+    <Nodes>
+      <UnitNode id="node_17" x="565.6091061850385" y="1319.2680122758945" enabled="true" unit="Imaginet.Units.Io.ImagimobSerialCapture">
+        <StringArgument param="port">COM3</StringArgument>
+        <DoubleArgument param="sample_rate">50</DoubleArgument>
+        <StringArgument param="sensor">gyroscope</StringArgument>
+      </UnitNode>
+      <LabelListNode id="node_0" width="120" height="120" x="689.7839549138029" y="577.3048875915788" enabled="true">
+        <Label>up</Label>
+        <Label>down</Label>
+      </LabelListNode>
+      <UnitNode id="node_19" x="1030.5366117764543" y="1306.8704493183118" enabled="true" name="gyro" unit="ImagimobStudio.Modules.DataTrack" />
+      <UnitNode id="node_18" x="949.2869749579936" y="1003.1071537511357" enabled="true" name="Serial Capture Data" unit="ImagimobStudio.Modules.DataTrack" />
+      <UnitNode id="node_16" x="566.0804045085251" y="1022.4355760255853" enabled="true" unit="Imaginet.Units.Io.ImagimobSerialCapture">
+        <StringArgument param="port">COM3</StringArgument>
+        <DoubleArgument param="sample_rate">50</DoubleArgument>
+        <StringArgument param="sensor">accelerometer</StringArgument>
+      </UnitNode>
+    </Nodes>
+    <Connections>
+      <Connection>
+        <Source node="node_16" param="data" />
+        <Target node="node_18" param="data" />
+      </Connection>
+      <Connection>
+        <Source node="node_17" param="data" />
+        <Target node="node_19" param="data" />
+      </Connection>
+    </Connections>
+  </Compound>
+</Imaginet>

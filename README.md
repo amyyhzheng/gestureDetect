@@ -1,2 +1,4 @@
 # gestureDetect
-Simple gesture detection using accelerometer and gyroscope data to deploy on Infineon PSoC6
+Simple gesture detection using accelerometer and gyroscope sensors collected in real time. Model deployed on Infineon PSoC6. 
+
+

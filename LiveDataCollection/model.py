@@ -1,8 +1,5 @@
 # DEEPCRAFT Studio 5.2.2135+b54b28f236fe7c6fb520f00b8de0ba1419f4422f
 # Copyright © 2023- Imagimob AB, All Rights Reserved.
-# 
-# Generated at 01/23/2025 16:14:01 UTC. Any changes will be lost.
-# 
 
 import numpy as np
 import enum
